@@ -1,0 +1,34 @@
+strict graph {
+	rankdir=BT
+	outputorder=edgesfirst
+	nodesep=1
+	splines=polyline
+	node[shape=circle, width=0.2, fixedsize=true, label="", style="setlinewidth(3)", forcelabels=true, fontsize=8]
+	edge[style="setlinewidth(8)", fontsize=8]
+	Sol[xlabel="Sol", fontsize=14]
+	SolLO[xlabel="Low Orbit (10,000km)"]
+	SolTx[xlabel="Transfer"]
+
+	Mercury[xlabel="Mercury", fontsize=14]
+	MercuryLO[xlabel="Low Orbit"]
+	MercuryCap[xlabel="Capture"]
+	MercuryTx[xlabel="Transfer"]
+
+	Venus[xlabel="Venus", fontsize=14]
+	VenusLO[xlabel="Low Orbit"]
+	VenusCap[xlabel="Capture"]
+	VenusTx[xlabel="Transfer"]
+
+	Sol--SolLO[xlabel="440", color="yellow"]
+	SolLO--SolTx[xlabel="178", color="yellow"]
+	Mercury--MercuryLO[xlabel="3.06", color="grey"]
+	MercuryLO--MercuryCap[xlabel="1.22", color="grey"]
+	MercuryCap--MercuryTx[xlabel="6.31", color="grey"]
+	Venus--VenusLO[xlabel="27", color="green"]
+	VenusLO--VenusCap[xlabel="2.94", color="green"]
+	VenusCap--VenusTx[xlabel="0.36", color="green"]
+
+	SolTx--MercuryTx[xlabel="15.74", color="yellow"]
+	MercuryTx--VenusTx[xlabel="2.06", color="yellow"]
+}
+
