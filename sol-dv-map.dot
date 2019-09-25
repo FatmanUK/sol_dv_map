@@ -1,13 +1,26 @@
+// nice render with:
+// twopi sol-dv-map.dot -Tpng >out.png
+// neato is also nice
+
+// TO DO:
+// 0. stop nodes touching
+// 1. add low orbit heights
+// 2. plug in numbers to black lines (except Luna)
+// 3. add colours to black lines (except Luna)
+
 strict graph {
 	rankdir=BT
 	outputorder=edgesfirst
-	nodesep=1
+	nodesep=5.75
 	splines=polyline
-	node[shape=circle, width=0.2, fixedsize=true, label="", style="setlinewidth(3)", forcelabels=true, fontsize=8]
-	edge[style="setlinewidth(8)", fontsize=8]
+	fontname=Arial
+	node[shape=circle, width=0.2, fixedsize=true, label="", style="setlinewidth(4)", forcelabels=true, fontsize=12, fontname=Arial]
+	edge[style="setlinewidth(8)", fontsize=8, fontname=Arial, weight=100]
+
 	Sol[xlabel="Sol", fontsize=14]
-	SolLO[xlabel="Low Orbit (10,000km)"]
+	SolLO[xlabel="Low Orbit\n(10,000km)"]
 	SolTx[xlabel="Transfer"]
+	SolCap[xlabel="Sol Escape"]
 
 	Mercury[xlabel="Mercury", fontsize=14]
 	MercuryLO[xlabel="Low Orbit"]
@@ -19,16 +32,401 @@ strict graph {
 	VenusCap[xlabel="Capture"]
 	VenusTx[xlabel="Transfer"]
 
-	Sol--SolLO[xlabel="440", color="yellow"]
-	SolLO--SolTx[xlabel="178", color="yellow"]
-	Mercury--MercuryLO[xlabel="3.06", color="grey"]
-	MercuryLO--MercuryCap[xlabel="1.22", color="grey"]
-	MercuryCap--MercuryTx[xlabel="6.31", color="grey"]
-	Venus--VenusLO[xlabel="27", color="green"]
-	VenusLO--VenusCap[xlabel="2.94", color="green"]
-	VenusCap--VenusTx[xlabel="0.36", color="green"]
+	Earth[xlabel="Earth", fontsize=14]
+	EarthLO[xlabel="Low Orbit"]
+	EarthCap[xlabel="Capture"]
+	GeoTx[xlabel="Geostationary\nTransfer"]
+	GeoOrbit[xlabel="Geostationary\nOrbit"]
 
-	SolTx--MercuryTx[xlabel="15.74", color="yellow"]
-	MercuryTx--VenusTx[xlabel="2.06", color="yellow"]
+	Luna[xlabel="Luna", fontsize=14]
+	LunaLO[xlabel="Low Orbit"]
+	LunaCap[xlabel="Capture"]
+	LunaTx[xlabel="Transfer"]
+
+	Mars[xlabel="Mars", fontsize=14]
+	MarsLO[xlabel="Low Orbit"]
+	PhobosTx[xlabel="Transfer"]
+	DeimosTx[xlabel="Transfer"]
+	MarsCap[xlabel="Capture"]
+	MarsTx[xlabel="Transfer"]
+
+	Phobos[xlabel="Phobos", fontsize=14]
+	PhobosLO[xlabel="Low Orbit"]
+	PhobosCap[xlabel="Capture"]
+
+	Deimos[xlabel="Deimos", fontsize=14]
+	DeimosLO[xlabel="Low Orbit"]
+	DeimosCap[xlabel="Capture"]
+
+        Vesta[xlabel="Vesta", fontsize=14]
+        VestaLO[xlabel="Low Orbit"]
+        VestaCap[xlabel="Capture"]
+        VestaTx[xlabel="Transfer"]
+
+        Ceres[xlabel="Ceres", fontsize=14]
+        CeresLO[xlabel="Low Orbit"]
+        CeresCap[xlabel="Capture"]
+        CeresTx[xlabel="Transfer"]
+
+        Jupiter[xlabel="Jupiter", fontsize=14]
+        JupiterLO[xlabel="Low Orbit"]
+        JupiterCap[xlabel="Capture"]
+        JupiterTx[xlabel="Transfer"]
+
+	Amalthea[xlabel="Amalthea", fontsize=14]
+	AmaltheaLO[xlabel="Low Orbit"]
+	AmaltheaCap[xlabel="Capture"]
+	AmaltheaTx[xlabel="Transfer"]
+
+	Io[xlabel="Io", fontsize=14]
+	IoLO[xlabel="Low Orbit"]
+	IoCap[xlabel="Capture"]
+	IoTx[xlabel="Transfer"]
+
+	Europa[xlabel="Europa", fontsize=14]
+	EuropaLO[xlabel="Low Orbit"]
+	EuropaCap[xlabel="Capture"]
+	EuropaTx[xlabel="Transfer"]
+
+	Ganymede[xlabel="Ganymede", fontsize=14]
+	GanymedeLO[xlabel="Low Orbit"]
+	GanymedeCap[xlabel="Capture"]
+	GanymedeTx[xlabel="Transfer"]
+
+	Callisto[xlabel="Callisto", fontsize=14]
+	CallistoLO[xlabel="Low Orbit"]
+	CallistoCap[xlabel="Capture"]
+	CallistoTx[xlabel="Transfer"]
+
+	Himalia[xlabel="Himalia", fontsize=14]
+	HimaliaLO[xlabel="Low Orbit"]
+	HimaliaCap[xlabel="Capture"]
+	HimaliaTx[xlabel="Transfer"]
+
+        Saturn[xlabel="Saturn", fontsize=14]
+        SaturnLO[xlabel="Low Orbit"]
+        SaturnCap[xlabel="Capture"]
+        SaturnTx[xlabel="Transfer"]
+
+	Mimas[xlabel="Mimas", fontsize=14]
+	MimasLO[xlabel="Low Orbit"]
+	MimasCap[xlabel="Capture"]
+	MimasTx[xlabel="Transfer"]
+
+	Enceladus[xlabel="Enceladus", fontsize=14]
+	EnceladusLO[xlabel="Low Orbit"]
+	EnceladusCap[xlabel="Capture"]
+	EnceladusTx[xlabel="Transfer"]
+
+	Tethys[xlabel="Tethys", fontsize=14]
+	TethysLO[xlabel="Low Orbit"]
+	TethysCap[xlabel="Capture"]
+	TethysTx[xlabel="Transfer"]
+
+	Dione[xlabel="Dione", fontsize=14]
+	DioneLO[xlabel="Low Orbit"]
+	DioneCap[xlabel="Capture"]
+	DioneTx[xlabel="Transfer"]
+
+	Rhea[xlabel="Rhea", fontsize=14]
+	RheaLO[xlabel="Low Orbit"]
+	RheaCap[xlabel="Capture"]
+	RheaTx[xlabel="Transfer"]
+
+	Titan[xlabel="Titan", fontsize=14]
+	TitanLO[xlabel="Low Orbit"]
+	TitanCap[xlabel="Capture"]
+	TitanTx[xlabel="Transfer"]
+
+	Iapetus[xlabel="Iapetus", fontsize=14]
+	IapetusLO[xlabel="Low Orbit"]
+	IapetusCap[xlabel="Capture"]
+	IapetusTx[xlabel="Transfer"]
+
+        Uranus[xlabel="Uranus", fontsize=14]
+        UranusLO[xlabel="Low Orbit"]
+        UranusCap[xlabel="Capture"]
+        UranusTx[xlabel="Transfer"]
+
+	Miranda[xlabel="Miranda", fontsize=14]
+	MirandaLO[xlabel="Low Orbit"]
+	MirandaCap[xlabel="Capture"]
+	MirandaTx[xlabel="Transfer"]
+
+	Ariel[xlabel="Ariel", fontsize=14]
+	ArielLO[xlabel="Low Orbit"]
+	ArielCap[xlabel="Capture"]
+	ArielTx[xlabel="Transfer"]
+
+	Umbriel[xlabel="Umbriel", fontsize=14]
+	UmbrielLO[xlabel="Low Orbit"]
+	UmbrielCap[xlabel="Capture"]
+	UmbrielTx[xlabel="Transfer"]
+
+	Titania[xlabel="Titania", fontsize=14]
+	TitaniaLO[xlabel="Low Orbit"]
+	TitaniaCap[xlabel="Capture"]
+	TitaniaTx[xlabel="Transfer"]
+
+	Oberon[xlabel="Oberon", fontsize=14]
+	OberonLO[xlabel="Low Orbit"]
+	OberonCap[xlabel="Capture"]
+	OberonTx[xlabel="Transfer"]
+
+        Neptune[xlabel="Neptune", fontsize=14]
+        NeptuneLO[xlabel="Low Orbit"]
+        NeptuneCap[xlabel="Capture"]
+        NeptuneTx[xlabel="Transfer"]
+
+	Proteus[xlabel="Proteus", fontsize=14]
+	ProteusLO[xlabel="Low Orbit"]
+	ProteusCap[xlabel="Capture"]
+	ProteusTx[xlabel="Transfer"]
+
+	Triton[xlabel="Triton", fontsize=14]
+	TritonLO[xlabel="Low Orbit"]
+	TritonCap[xlabel="Capture"]
+	TritonTx[xlabel="Transfer"]
+
+	Nereid[xlabel="Nereid", fontsize=14]
+	NereidLO[xlabel="Low Orbit"]
+	NereidCap[xlabel="Capture"]
+	NereidTx[xlabel="Transfer"]
+
+        Pluto[xlabel="Pluto", fontsize=14]
+        PlutoLO[xlabel="Low Orbit"]
+	CharonTx[xlabel="Transfer"]
+        PlutoCap[xlabel="Capture"]
+        PlutoTx[xlabel="Transfer"]
+
+	Charon[xlabel="Charon", fontsize=14]
+	CharonLO[xlabel="Low Orbit"]
+	CharonCap[xlabel="Capture"]
+
+        Haumea[xlabel="Haumea", fontsize=14]
+        HaumeaLO[xlabel="Low Orbit"]
+        HaumeaCap[xlabel="Capture"]
+        HaumeaTx[xlabel="Transfer"]
+
+        Makemake[xlabel="Makemake", fontsize=14]
+        MakemakeLO[xlabel="Low Orbit"]
+        MakemakeCap[xlabel="Capture"]
+        MakemakeTx[xlabel="Transfer"]
+
+        Eris[xlabel="Eris", fontsize=14]
+        ErisLO[xlabel="Low Orbit"]
+        ErisCap[xlabel="Capture"]
+        ErisTx[xlabel="Transfer"]
+
+        Sedna[xlabel="Sedna", fontsize=14]
+        SednaLO[xlabel="Low Orbit"]
+        SednaCap[xlabel="Capture"]
+        SednaTx[xlabel="Transfer"]
+
+	Sol--SolLO[xlabel="440000", color="yellow"]
+	SolLO--SolTx[xlabel="178000", color="yellow"]
+
+	Mercury--MercuryLO[xlabel="3060", color="grey"]
+	MercuryLO--MercuryCap[xlabel="1220", color="grey"]
+	MercuryCap--MercuryTx[xlabel="6310", color="grey"]
+
+	Venus--VenusLO[xlabel="27000", color="green"]
+	VenusLO--VenusCap[xlabel="2940", color="green"]
+	VenusCap--VenusTx[xlabel="360", color="green"]
+
+	Earth--EarthLO[xlabel="9000", color="blue"]
+	EarthLO--GeoTx[xlabel="2440", color="blue"]
+	GeoTx--LunaTx[xlabel="680", color="blue"]
+	LunaTx--EarthCap[xlabel="90", color="blue"]
+	GeoTx--GeoOrbit[xlabel="1470", color="blue"]
+
+	Luna--LunaLO[xlabel="1720", color="black"]
+	LunaLO--LunaCap[xlabel="680", color="black"]
+	LunaCap--LunaTx[xlabel="140", color="black"]
+
+	Mars--MarsLO[xlabel="3600", color="red"]
+	MarsLO--PhobosTx[xlabel="700", color="red"]
+	PhobosTx--DeimosTx[xlabel="400", color="red"]
+	DeimosTx--MarsCap[xlabel="340", color="red"]
+	MarsCap--MarsTx[xlabel="670", color="red"]
+
+	Phobos--PhobosLO[xlabel="6", color="pink"]
+	PhobosLO--PhobosCap[xlabel="3", color="pink"]
+	PhobosCap--PhobosTx[xlabel="540", color="pink"]
+
+	Deimos--DeimosLO[xlabel="4", color="pink"]
+	DeimosLO--DeimosCap[xlabel="2", color="pink"]
+	DeimosCap--DeimosTx[xlabel="650", color="pink"]
+
+	Vesta--VestaLO[xlabel="160", color="brown"]
+	VestaLO--VestaCap[xlabel="100", color="brown"]
+	VestaCap--VestaTx[xlabel="4110", color="brown"]
+
+	Ceres--CeresLO[xlabel="270", color="brown"]
+	CeresLO--CeresCap[xlabel="150", color="brown"]
+	CeresCap--CeresTx[xlabel="4390", color="brown"]
+
+	Jupiter--JupiterLO
+	JupiterLO--AmaltheaTx
+	AmaltheaTx--IoTx
+	IoTx--EuropaTx
+	EuropaTx--GanymedeTx
+	GanymedeTx--CallistoTx
+	CallistoTx--HimaliaTx
+	HimaliaTx--JupiterCap
+	JupiterCap--JupiterTx
+
+	Amalthea--AmaltheaLO
+	AmaltheaLO--AmaltheaCap
+	AmaltheaCap--AmaltheaTx
+
+	Io--IoLO
+	IoLO--IoCap
+	IoCap--IoTx
+
+	Europa--EuropaLO
+	EuropaLO--EuropaCap
+	EuropaCap--EuropaTx
+
+	Ganymede--GanymedeLO
+	GanymedeLO--GanymedeCap
+	GanymedeCap--GanymedeTx
+
+	Callisto--CallistoLO
+	CallistoLO--CallistoCap
+	CallistoCap--CallistoTx
+
+	Himalia--HimaliaLO
+	HimaliaLO--HimaliaCap
+	HimaliaCap--HimaliaTx
+
+	Saturn--SaturnLO
+	SaturnLO--MimasTx
+	MimasTx--EnceladusTx
+	EnceladusTx--TethysTx
+	TethysTx--DioneTx
+	DioneTx--RheaTx
+	RheaTx--TitanTx
+	TitanTx--IapetusTx
+	IapetusTx--SaturnCap
+	SaturnCap--SaturnTx
+
+	Mimas--MimasLO
+	MimasLO--MimasCap
+	MimasCap--MimasTx
+
+	Enceladus--EnceladusLO
+	EnceladusLO--EnceladusCap
+	EnceladusCap--EnceladusTx
+
+	Tethys--TethysLO
+	TethysLO--TethysCap
+	TethysCap--TethysTx
+
+	Dione--DioneLO
+	DioneLO--DioneCap
+	DioneCap--DioneTx
+
+	Rhea--RheaLO
+	RheaLO--RheaCap
+	RheaCap--RheaTx
+
+	Titan--TitanLO
+	TitanLO--TitanCap
+	TitanCap--TitanTx
+
+	Iapetus--IapetusLO
+	IapetusLO--IapetusCap
+	IapetusCap--IapetusTx
+
+	Uranus--UranusLO
+	UranusLO--MirandaTx
+	MirandaTx--ArielTx
+	ArielTx--UmbrielTx
+	UmbrielTx--TitaniaTx
+	TitaniaTx--OberonTx
+	OberonTx--UranusCap
+	UranusCap--UranusTx
+
+	Miranda--MirandaLO
+	MirandaLO--MirandaCap
+	MirandaCap--MirandaTx
+
+	Ariel--ArielLO
+	ArielLO--ArielCap
+	ArielCap--ArielTx
+
+	Umbriel--UmbrielLO
+	UmbrielLO--UmbrielCap
+	UmbrielCap--UmbrielTx
+
+	Titania--TitaniaLO
+	TitaniaLO--TitaniaCap
+	TitaniaCap--TitaniaTx
+
+	Oberon--OberonLO
+	OberonLO--OberonCap
+	OberonCap--OberonTx
+
+	Neptune--NeptuneLO
+	NeptuneLO--ProteusTx
+	ProteusTx--TritonTx
+	TritonTx--NereidTx
+	NereidTx--NeptuneCap
+	NeptuneCap--NeptuneTx
+
+	Proteus--ProteusLO
+	ProteusLO--ProteusCap
+	ProteusCap--ProteusTx
+
+	Triton--TritonLO
+	TritonLO--TritonCap
+	TritonCap--TritonTx
+
+	Nereid--NereidLO
+	NereidLO--NereidCap
+	NereidCap--NereidTx
+
+	Pluto--PlutoLO
+	PlutoLO--CharonTx
+	CharonTx--PlutoCap
+	PlutoCap--PlutoTx
+
+	Charon--CharonLO
+	CharonLO--CharonCap
+	CharonCap--CharonTx
+
+	Haumea--HaumeaLO[xlabel="100", color="grey"]
+	HaumeaLO--HaumeaCap[xlabel="210", color="grey"]
+	HaumeaCap--HaumeaTx[xlabel="2920", color="grey"]
+
+	Makemake--MakemakeLO[xlabel="360", color="pink"]
+	MakemakeLO--MakemakeCap[xlabel="210", color="pink"]
+	MakemakeCap--MakemakeTx[xlabel="2860", color="pink"]
+
+	Eris--ErisLO[xlabel="940", color="grey"]
+	ErisLO--ErisCap[xlabel="390", color="grey"]
+	ErisCap--ErisTx[xlabel="1960", color="grey"]
+
+	Sedna--SednaLO[xlabel="290", color="pink"]
+	SednaLO--SednaCap[xlabel="150", color="pink"]
+	SednaCap--SednaTx[xlabel="820", color="pink"]
+
+	SolTx--MercuryTx[xlabel="15740", color="yellow"]
+	MercuryTx--VenusTx[xlabel="2060", color="yellow"]
+	VenusTx--EarthCap[xlabel="280", color="yellow"]
+	EarthCap--MarsTx[xlabel="390", color="yellow"]
+	MarsTx--VestaTx[xlabel="920", color="yellow"]
+	VestaTx--CeresTx[xlabel="380", color="yellow"]
+	CeresTx--JupiterTx[xlabel="1400", color="yellow"]
+	JupiterTx--SaturnTx[xlabel="990", color="yellow"]
+	SaturnTx--UranusTx[xlabel="690", color="yellow"]
+	UranusTx--NeptuneTx[xlabel="270", color="yellow"]
+	NeptuneTx--PlutoTx[xlabel="110", color="yellow"]
+	PlutoTx--HaumeaTx[xlabel="30", color="yellow"]
+	HaumeaTx--MakemakeTx[xlabel="20", color="yellow"]
+	MakemakeTx--ErisTx[xlabel="110", color="yellow"]
+	ErisTx--SednaTx[xlabel="200", color="yellow"]
+	SednaTx--SolCap[xlabel="30", color="yellow"]
 }
 

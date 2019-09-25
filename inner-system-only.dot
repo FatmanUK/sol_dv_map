@@ -1,0 +1,90 @@
+strict graph {
+	rankdir=BT
+	outputorder=edgesfirst
+	nodesep=0.75
+	splines=polyline
+	fontname=Arial
+	node[shape=circle, width=0.2, fixedsize=true, label="", style="setlinewidth(4)", forcelabels=true, fontsize=12, fontname=Arial]
+	edge[style="setlinewidth(8)", fontsize=8, fontname=Arial]
+
+	Sol[xlabel="Sol", fontsize=14]
+	SolLO[xlabel="Low Orbit\n(10,000km)"]
+	SolTx[xlabel="Transfer"]
+
+	Mercury[xlabel="Mercury", fontsize=14]
+	MercuryLO[xlabel="Low Orbit"]
+	MercuryCap[xlabel="Capture"]
+	MercuryTx[xlabel="Transfer"]
+
+	Venus[xlabel="Venus", fontsize=14]
+	VenusLO[xlabel="Low Orbit"]
+	VenusCap[xlabel="Capture"]
+	VenusTx[xlabel="Transfer"]
+
+	Earth[xlabel="Earth", fontsize=14]
+	EarthLO[xlabel="Low Orbit"]
+	EarthCap[xlabel="Capture"]
+	GeoTx[xlabel="Geostationary\nTransfer"]
+	GeoOrbit[xlabel="Geostationary\nOrbit"]
+
+	Luna[xlabel="Luna", fontsize=14]
+	LunaLO[xlabel="Low Orbit"]
+	LunaCap[xlabel="Capture"]
+	LunaTx[xlabel="Transfer"]
+
+	Mars[xlabel="Mars", fontsize=14]
+	MarsLO[xlabel="Low Orbit"]
+	PhobosTx[xlabel="Transfer"]
+	DeimosTx[xlabel="Transfer"]
+	MarsCap[xlabel="Capture"]
+	MarsTx[xlabel="Transfer"]
+
+	Phobos[xlabel="Phobos", fontsize=14]
+	PhobosLO[xlabel="Low Orbit"]
+	PhobosCap[xlabel="Capture"]
+
+	Deimos[xlabel="Deimos", fontsize=14]
+	DeimosLO[xlabel="Low Orbit"]
+	DeimosCap[xlabel="Capture"]
+
+	Sol--SolLO[xlabel="440000", color="yellow"]
+	SolLO--SolTx[xlabel="178000", color="yellow"]
+
+	Mercury--MercuryLO[xlabel="3060", color="grey"]
+	MercuryLO--MercuryCap[xlabel="1220", color="grey"]
+	MercuryCap--MercuryTx[xlabel="6310", color="grey"]
+
+	Venus--VenusLO[xlabel="27000", color="green"]
+	VenusLO--VenusCap[xlabel="2940", color="green"]
+	VenusCap--VenusTx[xlabel="360", color="green"]
+
+	Earth--EarthLO[xlabel="9000", color="blue"]
+	EarthLO--GeoTx[xlabel="2440", color="blue"]
+	GeoTx--LunaTx[xlabel="680", color="blue"]
+	LunaTx--EarthCap[xlabel="90", color="blue"]
+	GeoTx--GeoOrbit[xlabel="1470", color="blue"]
+
+	Luna--LunaLO[xlabel="1720", color="black"]
+	LunaLO--LunaCap[xlabel="680", color="black"]
+	LunaCap--LunaTx[xlabel="140", color="black"]
+
+	Mars--MarsLO[xlabel="3600", color="red"]
+	MarsLO--PhobosTx[xlabel="700", color="red"]
+	PhobosTx--DeimosTx[xlabel="400", color="red"]
+	DeimosTx--MarsCap[xlabel="340", color="red"]
+	MarsCap--MarsTx[xlabel="670", color="red"]
+
+	Phobos--PhobosLO[xlabel="6", color="pink"]
+	PhobosLO--PhobosCap[xlabel="3", color="pink"]
+	PhobosCap--PhobosTx[xlabel="540", color="pink"]
+
+	Deimos--DeimosLO[xlabel="4", color="pink"]
+	DeimosLO--DeimosCap[xlabel="2", color="pink"]
+	DeimosCap--DeimosTx[xlabel="650", color="pink"]
+
+	SolTx--MercuryTx[xlabel="15740", color="yellow"]
+	MercuryTx--VenusTx[xlabel="2060", color="yellow"]
+	VenusTx--EarthCap[xlabel="280", color="yellow"]
+	EarthCap--MarsTx[xlabel="390", color="yellow"]
+}
+
