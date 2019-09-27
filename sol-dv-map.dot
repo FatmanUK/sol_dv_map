@@ -1,22 +1,24 @@
 // nice render with:
 // twopi sol-dv-map.dot -Tsvg >out.svg
-// (apply corrections to SVG file and add legend - can use Inkscape for this - currently not easily scriptable)
+// (apply corrections in Inkscape)
+// (copy legend layer into SVG file)
 // (render SVG into half-sized PNG file)
-// neato is also nice
+// neato also produces a nice layout
 
 // TO DO:
 // 1. find out attribution information and add
-// 2. render legend text below into a transparent PNG I can just paste with Inkscape
-// 3. fix Earth capture/transfer point? not happy with it - still seems Earth centric, needs an extra transfer point?
-// 4. Sol Escape should be bold. Can fix in post-processing.
+// 2. fix Earth capture/transfer point? not happy with it - still seems Earth centric, needs an extra transfer point?
+// 3. Sol Escape should be bold. Can fix in post-processing.
 
-// Legend:
-// o planet, planetoid, moon, small rock, orbit, capture or transfer point
-// Oo planet, planetoid or moon with sufficiently dense atmosphere to enable aerobraking
-// Numbers represent delta-V (Δv) in metres per second (ms-1) required to move between graph nodes.
-// Note: Inclination Δv is not included, so be sure to pack some extra fuel!
-// Numbers shamelessly plucked from https://imgur.com/WGOy3qT which reports Δv values "were calculated mainly using the Vis-Viva equation", whatever that is. It's entirely possibly, even likely, that I've made a transcription error or two. Do point them out if you find them.
-// I can't attribute the original numbers because there doesn't seem to be any attribution information included with the image. Let me know if it's yours and I'll add the attribution.
+// in Inkscape, look at XML and add attribute "inkscape:groupmode=layer" to the graph0 top level node to make it show up as a layer
+// after adding text, select it and go to Text>Convert to Text so that it shows up in the render
+
+// using #800000 (Maroon) for yellow-background numbers
+// Venus: Navy (#000080)
+// Luna: Maroon
+// Jupiter: Navy
+
+// reduce to 60% of size which is a nice compromise between readability and size
 
 // not all this GV config is strictly necessary, I could do everything except the nodes and edges by operating on the SVG file output
 strict graph SolΔvMap {

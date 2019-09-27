@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
       </cc:Work>
@@ -66,14 +66,14 @@
      guidetolerance="10000"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1004"
+     inkscape:window-width="497"
      inkscape:window-height="728"
      id="namedview7293"
      showgrid="false"
-     inkscape:zoom="0.1411511"
-     inkscape:cx="1203.1255"
-     inkscape:cy="1345.6959"
-     inkscape:window-x="10"
+     inkscape:zoom="1.5969424"
+     inkscape:cx="180.62692"
+     inkscape:cy="294.53304"
+     inkscape:window-x="517"
      inkscape:window-y="10"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer3"
@@ -104,8 +104,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Legend"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#feffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.58229953;stroke-opacity:1"
        id="rect1671"
@@ -138,7 +137,7 @@
            height="228.47856"
            x="175.34401"
            y="2020.0775" /></flowRegion><flowPara
-         id="flowPara3976"></flowPara></flowRoot>    <text
+         id="flowPara3976" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99844933px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.74985462"
        x="128.16216"
@@ -352,7 +351,7 @@
            x="102.9278"
            y="1743.5647"
            id="tspan8090"
-           style="stroke-width:0.74985462">entirely possibly, even likely, that I've made a transcription error or two. Do point them </tspan></tspan><tspan
+           style="stroke-width:0.74985462">entirely possible, even likely, that I've made a transcription error or two. Do point them </tspan></tspan><tspan
          sodipodi:role="line"
          x="102.9278"
          y="1766.0604"
