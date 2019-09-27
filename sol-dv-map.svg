@@ -75,13 +75,13 @@
      inkscape:window-height="728"
      id="namedview7293"
      showgrid="false"
-     inkscape:zoom="1.1292088"
-     inkscape:cx="268.96471"
-     inkscape:cy="310.19894"
+     inkscape:zoom="1.5969424"
+     inkscape:cx="1508.5234"
+     inkscape:cy="2110.7354"
      inkscape:window-x="10"
      inkscape:window-y="10"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="graph0"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -115,9 +115,9 @@
        id="title4881">SolΔvMap</title>
     <polygon
        stroke="transparent"
-       points="1784.6368,-1814.6029 1784.6368,72 -72,72 -72,-1814.6029 "
+       points="-72,-1814.6029 1784.6368,-1814.6029 1784.6368,72 -72,72 "
        id="polygon4883"
-       transform="translate(621.30806,191.75733)"
+       transform="translate(641.02943,193.63556)"
        style="fill:#ffffff" />
     <!-- Sol&#45;&#45;SolLO -->
     <g
@@ -2273,13 +2273,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="748.21838"
-         y="-1613.571"
+         x="-1536.819"
+         y="-941.07629"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5589"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">15000</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(84.042334)">15000</text>
     </g>
     <!-- UranusLO&#45;&#45;MirandaTx -->
     <g
@@ -2293,13 +2294,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="741.57037"
-         y="-1526.5635"
+         x="1680.0942"
+         y="218.01988"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5596"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">4260</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-70.409377)">4260</text>
     </g>
     <!-- UranusCap&#45;&#45;UranusTx -->
     <g
@@ -2313,13 +2315,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="815.7832"
-         y="-1003.4"
+         x="105.08703"
+         y="-1294.8365"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5603"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">510</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(34.775814)">510</text>
     </g>
     <!-- UranusTx&#45;&#45;NeptuneTx -->
     <g
@@ -2354,13 +2357,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="633.65619"
-         y="-1679.9734"
+         x="-1468.3634"
+         y="-1049.041"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5617"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">130</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(75.532839)">130</text>
     </g>
     <!-- MirandaLO&#45;&#45;MirandaCap -->
     <g
@@ -2374,13 +2378,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="662.5097"
-         y="-1596.3828"
+         x="-1364.4414"
+         y="-1067.6984"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5624"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">50</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(74.76682)">50</text>
     </g>
     <!-- MirandaCap&#45;&#45;MirandaTx -->
     <g
@@ -2394,13 +2399,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="691.98767"
-         y="-1517.4052"
+         x="-687.40588"
+         y="-1530.4705"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5631"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2610</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(49.195746)">2610</text>
     </g>
     <!-- MirandaTx&#45;&#45;ArielTx -->
     <g
@@ -2414,13 +2420,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="720.80029"
-         y="-1433.7526"
+         x="1553.0627"
+         y="396.71677"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5638"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">550</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-76.70451)">550</text>
     </g>
     <!-- Ariel&#45;&#45;ArielLO -->
     <g
@@ -2434,13 +2441,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="554.013"
-         y="-1561.757"
+         x="-1237.2084"
+         y="-1115.1528"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5645"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">390</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(67.896783)">390</text>
     </g>
     <!-- ArielLO&#45;&#45;ArielCap -->
     <g
@@ -2454,13 +2462,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="587.80438"
-         y="-1482.239"
+         x="-1123.2024"
+         y="-1144.9841"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5652"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">160</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(66.457937)">160</text>
     </g>
     <!-- ArielCap&#45;&#45;ArielTx -->
     <g
@@ -2474,13 +2483,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="650.4267"
-         y="-1414.8077"
+         x="-77.661484"
+         y="-1560.8195"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5659"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2310</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(28.043909)">2310</text>
     </g>
     <!-- ArielTx&#45;&#45;UmbrielTx -->
     <g
@@ -2494,13 +2504,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="705.99182"
-         y="-1340.7561"
+         x="1388.8551"
+         y="605.87372"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5666"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">350</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-84.772489)">350</text>
     </g>
     <!-- Umbriel&#45;&#45;UmbrielLO -->
     <g
@@ -2514,13 +2525,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="503.64871"
-         y="-1438.9716"
+         x="-998.11011"
+         y="-1160.0198"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5673"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">370</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(60.480059)">370</text>
     </g>
     <!-- UmbrielLO&#45;&#45;UmbrielCap -->
     <g
@@ -2534,13 +2546,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="548.6579"
-         y="-1365.2211"
+         x="-897.19873"
+         y="-1175.7184"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5680"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">150</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(59.638845)">150</text>
     </g>
     <!-- UmbrielCap&#45;&#45;UmbrielTx -->
     <g
@@ -2554,13 +2567,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="629.52002"
-         y="-1311.3838"
+         x="318.78577"
+         y="-1420.8994"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5687"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2240</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(13.45582)">2240</text>
     </g>
     <!-- UmbrielTx&#45;&#45;TitaniaTx -->
     <g
@@ -2574,13 +2588,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="703.98297"
-         y="-1249.1473"
+         x="-1211.8496"
+         y="-793.633"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5694"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">360</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(86.596647)">360</text>
     </g>
     <!-- Titania&#45;&#45;TitaniaLO -->
     <g
@@ -2594,13 +2609,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="482.07291"
-         y="-1317.3621"
+         x="-725.63867"
+         y="-1206.0101"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5701"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">560</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(51.629406)">560</text>
     </g>
     <!-- TitaniaLO&#45;&#45;TitaniaCap -->
     <g
@@ -2614,13 +2630,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="537.34058"
-         y="-1250.951"
+         x="-619.61017"
+         y="-1218.991"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5708"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">220</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(50.626405)">220</text>
     </g>
     <!-- TitaniaCap&#45;&#45;TitaniaTx -->
     <g
@@ -2634,13 +2651,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="628.646"
-         y="-1210.7516"
+         x="532.02765"
+         y="-1257.6908"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5715"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">1780</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(5.1914594)">1780</text>
     </g>
     <!-- TitaniaTx&#45;&#45;OberonTx -->
     <g
@@ -2654,13 +2672,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="714.47961"
-         y="-1159.9187"
+         x="-1021.5117"
+         y="-918.39197"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5722"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">150</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(80.171047)">150</text>
     </g>
     <!-- Oberon&#45;&#45;OberonLO -->
     <g
@@ -2674,13 +2693,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="487.3985"
-         y="-1202.8007"
+         x="-447.14642"
+         y="-1222.6594"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5729"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">530</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(42.62397)">530</text>
     </g>
     <!-- OberonLO&#45;&#45;OberonCap -->
     <g
@@ -2694,13 +2714,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="551.74683"
-         y="-1145.1443"
+         x="-357.29385"
+         y="-1225.0791"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5736"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">210</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(42.385786)">210</text>
     </g>
     <!-- OberonCap&#45;&#45;OberonTx -->
     <g
@@ -2714,13 +2735,13 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cbd5e8;stroke-width:10" />
       <text
-         x="646.27588"
-         y="-1116.2686"
+         x="660.88507"
+         y="-1108.964"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5743"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">1630</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;">1630</text>
     </g>
     <!-- OberonTx&#45;&#45;UranusCap -->
     <g
@@ -2734,13 +2755,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#000080;stroke-width:10" />
       <text
-         x="742.4646"
-         y="-1077.9473"
+         x="-603.85986"
+         y="-1172.7936"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5750"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">460</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(62.211221)">460</text>
     </g>
     <!-- Neptune&#45;&#45;NeptuneLO -->
     <g
@@ -2754,13 +2776,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#a020f0;stroke-width:10" />
       <text
-         x="1123.625"
-         y="-1460.0938"
+         x="1804.6788"
+         y="384.66638"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5757"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">16000</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-63.326887)">16000</text>
     </g>
     <!-- NeptuneLO&#45;&#45;ProteusTx -->
     <g
@@ -2774,13 +2797,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#a020f0;stroke-width:10" />
       <text
-         x="1073.8373"
-         y="-1393.0936"
+         x="1722.2336"
+         y="-348.54297"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5764"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">4580</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-40.113035)">4580</text>
     </g>
     <!-- NeptuneCap&#45;&#45;NeptuneTx -->
     <g
@@ -2794,13 +2818,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#a020f0;stroke-width:10" />
       <text
-         x="934.02557"
-         y="-1073.3518"
+         x="-564.16327"
+         y="-1318.9536"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5771"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">350</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(64.463587)">350</text>
     </g>
     <!-- NeptuneTx&#45;&#45;PlutoTx -->
     <g
@@ -2834,13 +2859,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="1078.486"
-         y="-1580.9246"
+         x="1837.7104"
+         y="540.05518"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5785"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">110</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(-71.315296)">110</text>
     </g>
     <!-- ProteusLO&#45;&#45;ProteusCap -->
     <g
@@ -2854,13 +2880,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="1057.5891"
-         y="-1499.1521"
+         x="1781.7007"
+         y="444.1752"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5792"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">50</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(-68.231508)">50</text>
     </g>
     <!-- ProteusCap&#45;&#45;ProteusTx -->
     <g
@@ -2874,13 +2901,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="1033.3275"
-         y="-1410.3662"
+         x="-1327.215"
+         y="-1174.6852"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5799"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2900</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(85.073991)">2900</text>
     </g>
     <!-- ProteusTx&#45;&#45;TritonTx -->
     <g
@@ -2894,13 +2922,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#a020f0;stroke-width:10" />
       <text
-         x="1005.3257"
-         y="-1328.5759"
+         x="1666.2667"
+         y="-94.667786"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5806"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">1380</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-48.693514)">1380</text>
     </g>
     <!-- Triton&#45;&#45;TritonLO -->
     <g
@@ -2914,13 +2943,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="952.03912"
-         y="-1523.0864"
+         x="1653.5833"
+         y="699.06451"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5813"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">1050</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(-79.787009)">1050</text>
     </g>
     <!-- TritonLO&#45;&#45;TritonCap -->
     <g
@@ -2934,13 +2964,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="943.3457"
-         y="-1438.1237"
+         x="1556.6118"
+         y="733.07123"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5820"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">410</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(-81.046592)">410</text>
     </g>
     <!-- TritonCap&#45;&#45;TritonTx -->
     <g
@@ -2954,13 +2985,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="951.15369"
-         y="-1344.963"
+         x="-835.79199"
+         y="-1440.347"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5827"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">1710</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(65.716794)">1710</text>
     </g>
     <!-- TritonTx&#45;&#45;NereidTx -->
     <g
@@ -2974,13 +3006,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#a020f0;stroke-width:10" />
       <text
-         x="954.81921"
-         y="-1257.399"
+         x="1574.5328"
+         y="121.92278"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5834"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">740</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-56.376339)">740</text>
     </g>
     <!-- Nereid&#45;&#45;NereidLO -->
     <g
@@ -2994,13 +3027,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="868.82428"
-         y="-1447.0935"
+         x="1475.3146"
+         y="820.32013"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5841"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">90</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(-87.427979)">90</text>
     </g>
     <!-- NereidLO&#45;&#45;NereidCap -->
     <g
@@ -3014,13 +3048,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="865.66882"
-         y="-1360.7512"
+         x="1371.8939"
+         y="850.06842"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5848"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">40</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(-88.615818)">40</text>
     </g>
     <!-- NereidCap&#45;&#45;NereidTx -->
     <g
@@ -3034,13 +3069,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#decbe4;stroke-width:10" />
       <text
-         x="892.95898"
-         y="-1268.658"
+         x="-441.54468"
+         y="-1495.6493"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5855"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">870</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(51.93639)">870</text>
     </g>
     <!-- NereidTx&#45;&#45;NeptuneCap -->
     <g
@@ -3054,13 +3090,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#a020f0;stroke-width:10" />
       <text
-         x="924.83771"
-         y="-1178.4298"
+         x="1388.8352"
+         y="563.9726"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5862"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">50</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-73.253088)">50</text>
     </g>
     <!-- Pluto&#45;&#45;PlutoLO -->
     <g
@@ -3074,13 +3111,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#696969;stroke-width:10" />
       <text
-         x="1231.0929"
-         y="-1289.9882"
+         x="1785.1415"
+         y="85.812294"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5869"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">890</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-48.394196)">890</text>
     </g>
     <!-- PlutoLO&#45;&#45;CharonTx -->
     <g
@@ -3094,13 +3132,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#696969;stroke-width:10" />
       <text
-         x="1159.2513"
-         y="-1238.26"
+         x="1601.9254"
+         y="-562.02557"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5876"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">310</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-26.948097)">310</text>
     </g>
     <!-- PlutoCap&#45;&#45;PlutoTx -->
     <g
@@ -3114,13 +3153,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#696969;stroke-width:10" />
       <text
-         x="1057.8577"
-         y="-1082.0239"
+         x="-1031.0354"
+         y="-1138.8759"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5883"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2700</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(86.89375)">2700</text>
     </g>
     <!-- PlutoTx&#45;&#45;HaumeaTx -->
     <g
@@ -3155,13 +3195,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cccccc;stroke-width:10" />
       <text
-         x="1218.3464"
-         y="-1412.7012"
+         x="1845.5417"
+         y="285.46613"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5897"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">420</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
+         transform="rotate(-57.294627)">420</text>
     </g>
     <!-- CharonLO&#45;&#45;CharonCap -->
     <g
@@ -3175,13 +3216,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cccccc;stroke-width:10" />
       <text
-         x="1168.0739"
-         y="-1342.4329"
+         x="1775.3702"
+         y="159.55453"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5904"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">160</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(-53.385155)">160</text>
     </g>
     <!-- CharonCap&#45;&#45;CharonTx -->
     <g
@@ -3195,13 +3237,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cccccc;stroke-width:10" />
       <text
-         x="1137.2552"
-         y="-1262.3906"
+         x="1544.0043"
+         y="714.25214"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5911"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">20</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         transform="rotate(-72.158522)">20</text>
     </g>
     <!-- CharonTx&#45;&#45;PlutoCap -->
     <g
@@ -3215,13 +3258,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#696969;stroke-width:10" />
       <text
-         x="1097.0062"
-         y="-1184.5399"
+         x="1594.2986"
+         y="259.60013"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5918"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">40</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-55.816665)">40</text>
     </g>
     <!-- Haumea&#45;&#45;HaumeaLO -->
     <g
@@ -3235,13 +3279,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1285.8043"
-         y="-1228.9265"
+         x="1773.6194"
+         y="-175.83734"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5925"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">100</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-37.3913)">100</text>
     </g>
     <!-- HaumeaLO&#45;&#45;HaumeaCap -->
     <g
@@ -3255,13 +3300,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1217.4189"
-         y="-1176.1211"
+         x="1688.4353"
+         y="-170.60199"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5932"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">210</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-37.560074)">210</text>
     </g>
     <!-- HaumeaCap&#45;&#45;HaumeaTx -->
     <g
@@ -3275,13 +3321,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1166.6562"
-         y="-1079.3494"
+         x="1202.4182"
+         y="1057.9492"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5939"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2920</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-82.983471)">2920</text>
     </g>
     <!-- HaumeaTx&#45;&#45;MakemakeTx -->
     <g
@@ -3315,13 +3362,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1406.5447"
-         y="-1202.9236"
+         x="1825.374"
+         y="-310.38248"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5953"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">360</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-30.33456)">360</text>
     </g>
     <!-- MakemakeLO&#45;&#45;MakemakeCap -->
     <g
@@ -3335,13 +3383,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1331.1996"
-         y="-1160.6379"
+         x="1740.3738"
+         y="-311.97052"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5960"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">210</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-30.322842)">210</text>
     </g>
     <!-- MakemakeCap&#45;&#45;MakemakeTx -->
     <g
@@ -3355,13 +3404,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1267.1893"
-         y="-1074.8007"
+         x="1374.9126"
+         y="949.45538"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5967"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">2860</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-73.834775)">2860</text>
     </g>
     <!-- MakemakeTx&#45;&#45;ErisTx -->
     <g
@@ -3396,13 +3446,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1527.4087"
-         y="-1148.1086"
+         x="1837.8269"
+         y="-526.0896"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5981"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">940</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-20.493699)">940</text>
     </g>
     <!-- ErisLO&#45;&#45;ErisCap -->
     <g
@@ -3416,13 +3467,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1446.7097"
-         y="-1117.2438"
+         x="1756.5043"
+         y="-521.99109"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5988"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">390</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-20.607765)">390</text>
     </g>
     <!-- ErisCap&#45;&#45;ErisTx -->
     <g
@@ -3436,13 +3488,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1369.7806"
-         y="-1050.1307"
+         x="1598.829"
+         y="671.84357"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text5995"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">1960</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-59.307577)">1960</text>
     </g>
     <!-- ErisTx&#45;&#45;SednaTx -->
     <g
@@ -3477,13 +3530,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1642.6376"
-         y="-1064.201"
+         x="1861.2224"
+         y="-616.88239"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text6009"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">290</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
+         transform="rotate(-14.188592)">290</text>
     </g>
     <!-- SednaLO&#45;&#45;SednaCap -->
     <g
@@ -3497,13 +3551,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1558.3046"
-         y="-1045.415"
+         x="1745.3477"
+         y="-699.21442"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text6016"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">150</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-11.599545)">150</text>
     </g>
     <!-- SednaCap&#45;&#45;SednaTx -->
     <g
@@ -3517,13 +3572,14 @@
          inkscape:connector-curvature="0"
          style="fill:none;stroke:#cd919e;stroke-width:10" />
       <text
-         x="1477.7917"
-         y="-1004.8504"
+         x="1777.2001"
+         y="226.54059"
          font-weight="bold"
          font-style="italic"
          font-size="10.00"
          id="text6023"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000000">820</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         transform="rotate(-40.846328)">820</text>
     </g>
     <!-- SednaTx&#45;&#45;SolCap -->
     <g
