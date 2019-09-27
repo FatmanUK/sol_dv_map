@@ -7,6 +7,8 @@
 // TO DO:
 // 1. find out attribution information and add
 // 2. render legend text below into a transparent PNG I can just paste with Inkscape
+// 3. fix Earth capture/transfer point? not happy with it - still seems Earth centric, needs an extra transfer point?
+// 4. Sol Escape should be bold. Can fix in post-processing.
 
 // Legend:
 // o planet, planetoid, moon, small rock, orbit, capture or transfer point
