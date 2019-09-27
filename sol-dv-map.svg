@@ -19,7 +19,11 @@
    version="1.1"
    id="svg7291"
    sodipodi:docname="sol-dv-map.svg"
-   inkscape:version="">
+   inkscape:version=""
+   inkscape:export-filename="/home/DREAMTRACK.CO.UK/w131032/sol-dv-map/sol-dv-map-1.png.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   enable-background="new">
   <metadata
      id="metadata7297">
     <rdf:RDF>
@@ -61,6 +65,16 @@
          offset="0"
          id="stop3944" />
     </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1725">
+      <feBlend
+         inkscape:collect="always"
+         mode="lighten"
+         in2="BackgroundImage"
+         id="feBlend1727" />
+    </filter>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -75,9 +89,9 @@
      inkscape:window-height="728"
      id="namedview7293"
      showgrid="false"
-     inkscape:zoom="1.5969424"
-     inkscape:cx="1508.5234"
-     inkscape:cy="2110.7354"
+     inkscape:zoom="0.7984712"
+     inkscape:cx="883.79465"
+     inkscape:cy="2307.3019"
      inkscape:window-x="10"
      inkscape:window-y="10"
      inkscape:window-maximized="0"
@@ -104,21 +118,33 @@
        orientation="1,0"
        id="guide4279"
        inkscape:locked="false" />
+    <sodipodi:guide
+       position="102.92823,397.7606"
+       orientation="-0.70710678,0.70710678"
+       id="guide1730"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="337.33897,632.16709"
+       orientation="1,0"
+       id="guide1732"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <g
      id="graph0"
      class="graph"
      transform="translate(72,1814.6029)"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:inline;filter:url(#filter1725)">
     <title
        id="title4881">SolΔvMap</title>
     <polygon
        stroke="transparent"
-       points="-72,-1814.6029 1784.6368,-1814.6029 1784.6368,72 -72,72 "
+       points="1784.6368,-1814.6029 1784.6368,72 -72,72 -72,-1814.6029 "
        id="polygon4883"
-       transform="translate(641.02943,193.63556)"
-       style="fill:#ffffff" />
+       transform="translate(0,0.01419208)"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <!-- Sol&#45;&#45;SolLO -->
     <g
        id="edge1"
@@ -1712,7 +1738,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5400"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(56.205953)">40</text>
     </g>
     <!-- MimasCap&#45;&#45;MimasTx -->
@@ -1733,7 +1759,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5407"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(24.558575)">4020</text>
     </g>
     <!-- MimasTx&#45;&#45;EnceladusTx -->
@@ -1796,7 +1822,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5428"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(45.154814)">70</text>
     </g>
     <!-- EnceladusCap&#45;&#45;EnceladusTx -->
@@ -1859,7 +1885,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5449"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(37.226619)">270</text>
     </g>
     <!-- TethysLO&#45;&#45;TethysCap -->
@@ -1880,7 +1906,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5456"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(38.952479)">110</text>
     </g>
     <!-- TethysCap&#45;&#45;TethysTx -->
@@ -1901,7 +1927,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5463"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-10.940501)">4290</text>
     </g>
     <!-- TethysTx&#45;&#45;DioneTx -->
@@ -1943,7 +1969,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5477"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(29.422097)">360</text>
     </g>
     <!-- DioneLO&#45;&#45;DioneCap -->
@@ -1964,7 +1990,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5484"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(29.98826)">140</text>
     </g>
     <!-- DioneCap&#45;&#45;DioneTx -->
@@ -1985,7 +2011,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5491"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-21.280866)">4230</text>
     </g>
     <!-- DioneTx&#45;&#45;RheaTx -->
@@ -2006,7 +2032,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5498"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(62.38969)">670</text>
     </g>
     <!-- Rhea&#45;&#45;RheaLO -->
@@ -2027,7 +2053,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5505"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(20.82912)">450</text>
     </g>
     <!-- RheaLO&#45;&#45;RheaCap -->
@@ -2069,7 +2095,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5519"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-28.802707)">4010</text>
     </g>
     <!-- RheaTx&#45;&#45;TitanTx -->
@@ -2111,7 +2137,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5533"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(11.91016)">7600</text>
     </g>
     <!-- TitanLO&#45;&#45;TitanCap -->
@@ -2132,7 +2158,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5540"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(12.938214)">660</text>
     </g>
     <!-- TitanCap&#45;&#45;TitanTx -->
@@ -2195,7 +2221,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5561"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(3.9146471)">410</text>
     </g>
     <!-- IapetusLO&#45;&#45;IapetusCap -->
@@ -2216,7 +2242,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5568"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(4.4642822)">160</text>
     </g>
     <!-- IapetusCap&#45;&#45;IapetusTx -->
@@ -2237,7 +2263,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5575"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-36.107523)">2160</text>
     </g>
     <!-- IapetusTx&#45;&#45;SaturnCap -->
@@ -2363,7 +2389,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5617"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(75.532839)">130</text>
     </g>
     <!-- MirandaLO&#45;&#45;MirandaCap -->
@@ -2699,7 +2725,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5729"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(42.62397)">530</text>
     </g>
     <!-- OberonLO&#45;&#45;OberonCap -->
@@ -2720,7 +2746,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5736"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(42.385786)">210</text>
     </g>
     <!-- OberonCap&#45;&#45;OberonTx -->
@@ -2741,7 +2767,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5743"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;">1630</text>
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080">1630</text>
     </g>
     <!-- OberonTx&#45;&#45;UranusCap -->
     <g
@@ -2803,7 +2829,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5764"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-40.113035)">4580</text>
     </g>
     <!-- NeptuneCap&#45;&#45;NeptuneTx -->
@@ -2824,7 +2850,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5771"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(64.463587)">350</text>
     </g>
     <!-- NeptuneTx&#45;&#45;PlutoTx -->
@@ -2949,7 +2975,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5813"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-79.787009)">1050</text>
     </g>
     <!-- TritonLO&#45;&#45;TritonCap -->
@@ -2970,7 +2996,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5820"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-81.046592)">410</text>
     </g>
     <!-- TritonCap&#45;&#45;TritonTx -->
@@ -3033,7 +3059,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5841"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-87.427979)">90</text>
     </g>
     <!-- NereidLO&#45;&#45;NereidCap -->
@@ -3054,7 +3080,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5848"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-88.615818)">40</text>
     </g>
     <!-- NereidCap&#45;&#45;NereidTx -->
@@ -3075,7 +3101,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5855"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(51.93639)">870</text>
     </g>
     <!-- NereidTx&#45;&#45;NeptuneCap -->
@@ -3096,7 +3122,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5862"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-73.253088)">50</text>
     </g>
     <!-- Pluto&#45;&#45;PlutoLO -->
@@ -3138,7 +3164,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5876"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-26.948097)">310</text>
     </g>
     <!-- PlutoCap&#45;&#45;PlutoTx -->
@@ -3222,7 +3248,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5904"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-53.385155)">160</text>
     </g>
     <!-- CharonCap&#45;&#45;CharonTx -->
@@ -3243,7 +3269,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5911"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#000080"
          transform="rotate(-72.158522)">20</text>
     </g>
     <!-- CharonTx&#45;&#45;PlutoCap -->
@@ -3264,7 +3290,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5918"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-55.816665)">40</text>
     </g>
     <!-- Haumea&#45;&#45;HaumeaLO -->
@@ -3306,7 +3332,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5932"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-37.560074)">210</text>
     </g>
     <!-- HaumeaCap&#45;&#45;HaumeaTx -->
@@ -3368,7 +3394,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5953"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-30.33456)">360</text>
     </g>
     <!-- MakemakeLO&#45;&#45;MakemakeCap -->
@@ -3389,7 +3415,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5960"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-30.322842)">210</text>
     </g>
     <!-- MakemakeCap&#45;&#45;MakemakeTx -->
@@ -3410,7 +3436,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5967"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-73.834775)">2860</text>
     </g>
     <!-- MakemakeTx&#45;&#45;ErisTx -->
@@ -3452,7 +3478,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5981"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-20.493699)">940</text>
     </g>
     <!-- ErisLO&#45;&#45;ErisCap -->
@@ -3494,7 +3520,7 @@
          font-style="italic"
          font-size="10.00"
          id="text5995"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-59.307577)">1960</text>
     </g>
     <!-- ErisTx&#45;&#45;SednaTx -->
@@ -3557,7 +3583,7 @@
          font-style="italic"
          font-size="10.00"
          id="text6016"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-11.599545)">150</text>
     </g>
     <!-- SednaCap&#45;&#45;SednaTx -->
@@ -3578,7 +3604,7 @@
          font-style="italic"
          font-size="10.00"
          id="text6023"
-         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff;"
+         style="font-style:italic;font-weight:bold;font-size:10px;font-family:sans;text-anchor:start;fill:#ffffff"
          transform="rotate(-40.846328)">820</text>
     </g>
     <!-- SednaTx&#45;&#45;SolCap -->
@@ -7119,7 +7145,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Legend"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#feffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.58229953;stroke-opacity:1"
        id="rect1671"
