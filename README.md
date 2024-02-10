@@ -1,4 +1,4 @@
-# sol-dv-map
-A heliocentric delta-V map of the Solar system.
+# sol_dv_map
+A delta-V map of the Solar system.
 
-![A heliocentric delta-V map of the Solar system.](https://dreamtrack.ddns.net:3000/CompleteProjects/sol-dv-map/raw/commit/28fb793692d971fe981a9a76194a06cffc99a867/sol-dv-map-2-50pc.png)
+![A heliocentric delta-V map of the Solar system.](/FatmanUK/sol_dv_map/blob/mother/output/sol-dv-map-2-50pc.png)
