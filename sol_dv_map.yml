@@ -1,0 +1,28 @@
+---
+- name: 'Generate map'
+  hosts: 'localhost'
+  connection: 'local'
+  gather_facts: no
+  become: no
+  vars:
+    dot_file: 'sol-dv-map.dot'
+    output_file: 'output/sol-dv-map-2.png'
+  roles:
+    - name: 'image_generate'
+    - name: 'image_resize'
+      vars:
+        scale: '75%'
+        src: '{{ output_file }}'
+        dest: '{{ src[:-(src | split(".") | last | length)-1] }}-{{ scale[:-1] }}pc.{{ src | split(".") | last }}'
+    - name: 'image_resize'
+      vars:
+        scale: '60%'
+        src: '{{ output_file }}'
+        dest: '{{ src[:-(src | split(".") | last | length)-1] }}-{{ scale[:-1] }}pc.{{ src | split(".") | last }}'
+    - name: 'image_resize'
+      vars:
+        scale: '50%'
+        src: '{{ output_file }}'
+        dest: '{{ src[:-(src | split(".") | last | length)-1] }}-{{ scale[:-1] }}pc.{{ src | split(".") | last }}'
+...
+# vim: set filetype=yaml

@@ -1,0 +1,12 @@
+---
+# TODO: failed_when
+- name: 'Scale image by percentage'
+  command:
+    argv:
+      - '/usr/bin/convert'
+      - '{{ src }}'
+      - '-resize'
+      - '{{ scale }}'
+      - '{{ dest }}'
+...
+# vim: set filetype=yaml

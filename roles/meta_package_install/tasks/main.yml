@@ -1,0 +1,30 @@
+---
+# Doesn't work. Ansible Galaxy is broken.
+#- name: 'Install packages with xbps'
+#  xbps:
+#    name: '{{ packages }}'
+#    update_cache: yes
+#    upgrade_xbps: yes
+
+# TODO: figure out failed_when for xbps-install
+# (or do this block a bit differently, and better)
+- name: 'Update xbps index'
+  command:
+    argv:
+      - '{{ xbps_command }}'
+      - '-Sy'
+
+# TODO: figure out failed_when for xbps-install
+- name: 'Update xbps'
+  command:
+    argv:
+      - '{{ xbps_command }}'
+      - '-uy'
+      - 'xbps'
+
+# TODO: figure out failed_when for xbps-install
+- name: 'Install packages with xbps'
+  command:
+    argv: '{{ [ xbps_command, "-y" ] + packages }}'
+...
+# vim: set filetype=yaml

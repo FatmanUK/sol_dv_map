@@ -1,0 +1,29 @@
+---
+- name: 'Template in dot file'
+  template:
+    src: '{{ dot_file  }}.j2'
+    dest: '{{ dot_file }}'
+
+# TODO: failed_when
+# TODO: require Graphviz
+- name: 'Dot to SVG'
+  register: 'reg_graphviz'
+  command:
+    argv:
+      - '/usr/bin/twopi'
+      - '-Tsvg'
+      - '{{ dot_file }}'
+
+- name: 'Write SVG output'
+  copy:
+    content: |
+      {{ reg_graphviz.stdout }}
+    dest: '{{ dot_file }}.svg'
+
+#// (apply corrections in Inkscape)
+#// (copy legend layer into SVG file)
+#// (render SVG into half-sized PNG file)
+#// neato also produces a nice layout
+
+...
+# vim: set filetype=yaml

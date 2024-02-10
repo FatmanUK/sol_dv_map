@@ -1,0 +1,8 @@
+---
+# dependencies:
+#   - vars:
+#       packages:
+#         - 'ImageMagick'
+#     role: 'meta_package_install'
+...
+# vim: set filetype=yaml
